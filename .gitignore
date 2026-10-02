@@ -42,3 +42,4 @@ application-prod.properties
 
 firebase-service-account.json
 serviceAccountKey.json
+.env
