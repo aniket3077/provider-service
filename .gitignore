@@ -34,3 +34,11 @@ build/
 ### Operating System ###
 .DS_Store
 Thumbs.db
+
+!.env.example
+
+application-local.properties
+application-prod.properties
+
+firebase-service-account.json
+serviceAccountKey.json

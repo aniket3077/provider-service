@@ -76,7 +76,8 @@ public class SecurityConfig {
                                 "/v3/api-docs/**"
                         ).permitAll()
                         .requestMatchers(
-                                "/api/providers/matching-candidates"
+                                "/api/providers/matching-candidates",
+                                "/internal/providers/performance/**"
                         ).permitAll()
 
                         .anyRequest()
